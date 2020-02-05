@@ -151,17 +151,16 @@
   color: #ff652f;
 }
 
-.nav .menu-nav__item__link {
+.nav .menu-nav__link {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
   padding: 2rem 0;
-  font-weight: 300;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
-.nav .menu-nav__item:hover {
+.nav .menu-nav__link:hover {
   color: #ff652f;
 }
 
@@ -190,7 +189,7 @@
 }
 
 .about__bio-image {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.7)), to(rgba(39, 39, 39, 0.3))), url("../img/Profile.jpg") center top;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.3)), url("../img/Profile.jpg") center top;
@@ -435,7 +434,10 @@
     padding-right: 1.5rem;
   }
   .nav .menu-nav__link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+  .about__bio-image {
+    height: 70vh;
   }
 }
 
